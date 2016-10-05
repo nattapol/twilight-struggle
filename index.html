@@ -2,17 +2,27 @@
 
 <html lang="en">
     <head>
-      <meta charset="utf-8">
+        <meta charset="utf-8">
 
-      <title>Twilight Struggle Rule</title>
-      <meta name="description" content="The HTML5 Herald">
-      <meta name="author" content="SitePoint">
+        <title>Twilight Struggle Rule</title>
+        <meta name="description" content="The HTML5 Herald">
+        <meta name="author" content="SitePoint">
 
-      <link rel="stylesheet" href="/css/styles.css?v=1.0">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-      <!--[if lt IE 9]>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-      <![endif]-->
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!--[if lt IE 9]>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+        <![endif]-->
+
+        <link rel="stylesheet" href="/css/styles.css?v=1.0">
+
     </head>
 
     <body>
@@ -134,18 +144,18 @@
 
             <p><strong>A. Improve DEFCON Status:</strong> ถ้า DEFCON น้อยกว่า 5 ให้เพิ่ม DEFCON เข้าไป 1 อัน (จนกว่าจะถุง peace).</p>
 
-            <p><strong>B. Deal Cards:</strong> .</p>
+            <p><strong>B. Deal Cards:</strong> ผู้เล่นแต่ละคนจะได้รับการ์ด 8 ใบในเทิร์นที่ 1-3. ส่วนเทิร์นที่ 4-10 จะได้รับการ์ด 9 ใบ โดยที่ China Card จะไม่นับรวมในจำนวนนี้.</p>
 
             <div>
-                <p><strong>C. Headline Phase:</strong> .</p>
+                <p><strong>C. Headline Phase:</strong> ผู้เล่นแต่ละคนจะเลือกการ์จากในมือโดยที่ไม่ให้อีกฝั่งเห็น หลังจากเลือกเสร็จกันทั้งคู่แล้วก็เปิดการ์ดและทำตามความสามารถของการ์ด. การ์ดนี้จะเรียกว่า 'Headline cards' และจะเริ่ม event ของการ์ดแต่ละใบ(การ์ดที่มีเครื่องหมายดอกจันทร์​จะถูกเอาออกจากเกม). ในการที่จะทำเหตุการณ์ของการ์ดใบไหนก่อนให้ดูที่ค่า Operation ที่บอกไว้ในการ์ด; ถ้าหากว่าเท่ากันจะให้ฝั่ง US ทำก่อน.</p>
+
                 <ul>
-                    <li>...</li>
-                    <li>...</li>
-                </ul>
-                <p><em>NOTE: ...</em></p>
-                <ul>
-                    <li>...</li>
-                    <li>...</li>
+                    <li>การ์ดที่ทำแต้มได้สามารถใช้เล่นใน Headline Phase ได้. แต่ว่าแต้มในการ์ดนั้นจะถูกคิดเป็น 0 แล้วค่อยทำเอฟเฟคในการ์ด. ถ้าหากว่าทั้งสองฝ่ายเลือกเล่นการ์ดที่มีแต้มทั้งคู่ ผู้เล่นฝ่าย US จะโดนก่อน.</li>
+                    <li>ผู้เล่นต้องมี Headline event โดยไม่สนว่า event นั้นจะช่วยฝ่ายตัวเองหรือว่าช่วยอีกฝ่าย.</br>
+                        <em>NOTE: ถ้าหากว่าต้องเล่นการ์ดของฝั่งตรงข้ามในช่วง Headline ผู้เล่นอีกฝ่ายจะได้รับอานิสงส์ของ event นั้นแทน. แต่อย่างไรก็ตามผู้เล่นที่เป็นเจ้าของ headline card จะยังถือว่าเป็น phasing player อยู่ สำหรับสถานะของ DEFCON (ดูที่ 8.1.3.)</em>
+                    </li>
+                    <li>'China Card' จะเล่นเป็น Headline ไม่ได้.</li>
+                    <li>เว้นแต่ว่า headline event มีความเกี่ยวข้องกับ operation point, ผู้เล่นทั้งสองฝ่ายจะไม่ได้ operation pointer จากการ์ดที่เล่นในช่วง headline phase.</li>
                 </ul>
             </div>
 
