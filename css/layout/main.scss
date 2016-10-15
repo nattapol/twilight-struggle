@@ -1,12 +1,14 @@
 body {
-    background-color: #F2F2F2;
+    background-color: #F8F8F8;
 }
 
 .container {
     max-width: 1140px;
     width: 100%;
-    margin: 0 auto;
-    padding: 15px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 3px;
     box-sizing: border-box;
     background-color: #FFFFFF;
+    box-shadow: 0 1px 3px #CCC;
 }

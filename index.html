@@ -9,13 +9,13 @@
         <meta name="author" content="SitePoint">
 
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
 
         <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstap-theme.min.css">
 
         <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="/bower_components/bootstrap/dist/js/bootstap.min.js"></script>
 
         <!--[if lt IE 9]>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -27,254 +27,238 @@
 
     <body>
         <div class="container">
-            <h1>Twilight Struggle Rule</h1>
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2">
+                    <h1>Twilight Struggle Rule</h1>
 
-            <h2>1.0 INTRODUCTION</h2>
+                    <h2>1.0 INTRODUCTION</h2>
 
-            <p><em>ขณะที่เสียงแตรแผดดังร้องเรียกพวกเราอีกครั้ง - แม้จะไม่ได้ร้องเรียกให้พวกเรากลับไปถืออาวุธ. แม้จะไม่มีการรบพุ่งให้เข้าไป เราก็ยังต้องเตรียมพร้อมเพื่อมัน - เราต้องพวกท่านเพื่อช่วยกันฝ่าฟันสถานการณ์นี้ไปด้วยกัน"</em><br />- John F. Kennedy, Inaugural Speech, มกรา 1961</p>
-            <p>ในปี 1945, เหล่าพันธมิตรได้ปราบเหล่าอสูรร้ายนาซีได้, ด้วยพายุเปลวเพลิงที่ทำให้จักรวรรดิ์ญี่ปุ่นต้องยอมสิโรราป. ได้เหลือยักษ์ใหญ่อยู่สองตน. ทั่วโลกกำลังก้าวเข้าสู่ความขัดแย้งใหม่, แต่มันไม่เหมือนกับความขัดแย้งที่ผ่านมากว่าทศวรรษ สมรภูมิใหม่นี้ ไม่ได้วัดกันด้วยกำลังทหารหรือกองรถถัง แต่วัดกันด้วยการสอดแนม และแนวคิดทางการเมือง, ความก้าวหน้าทางวิทยาศาสตร์ ศิลปะ และการหักหลัง.</p>
-            <p><em>Twilight Struggle</em> เป็นเกมที่เล่นกันสองคน จำลองเหตุการณ์ 45 แห่งการห้ำหั่นกันผ่านสงครามเย็นระหว่างสหภาพโซเวียตและสหรัฐอเมริกา. โลกทั้งใบเป็นเหมือนกับสนามประลองระหว่างสองยักษ์ใหญ่เพื่ออุดมการณ์และแนวทางของตัวเอง. ตัวเกมจะเริ่มตั้งแต่การสิ้นสุดของสงครามโลกครั้งที่ 2 และจบที่ปี 1989 โดยฝ่ายที่ยังคงยืนหยัดอยู่ได้นั้นเป็นสหรัฐอเมริกา.</p>
-            <p><em>Twilight Struggle</em> นั้นจะเดินเกมผ่านการ์ดแต่ละใบอย่างเช่นเกม We the People และ Hannibal: Rome vs. Carthage. เป็นเกมที่เล่นได้เร็ว, ไม่ซับซ้อน. Event card แต่ละใบจะแทนเหตุการณ์ที่เกิดขึ้น, จากความขัดแย้งใน Israeli ปี 1948 และ 1967, ถึงเวียดนาม และ การเคลื่อนไหวทางสันติภาพใน U.S., ถึงวิกฤตการมิซไซล์ในคิวบาที่ทำให้โลกต้องตึงเครียดจากสงครามนิวเคลียร์.</p>
-            <p>คู่มือนี้จะแบ่งแต่ละส่วนโดยตัวเลข โดยที่มีหัวข้อย่อยๆ ของตัวเองอีกที่อย่างเช่น 2.1 2.2.</p>
-            <p>ศัพท์ที่เป็นคำสำคัญอย่าง '<span class="capitalize">Influence</span>' หรือ '<span class="capitalize">Battleground</span>', ในคู่มือนั้นจะใช้ตัวสีแดง ซึ่งจะเป็นการเน้นย้ำว่านี่คือส่วนที่สำคัญ.</p>
+                    <p><em>ขณะที่เสียงแตรแผดดังร้องเรียกพวกเราอีกครั้ง - แม้จะไม่ได้ร้องเรียกให้พวกเรากลับไปถืออาวุธ. แม้จะไม่มีการรบพุ่งให้เข้าไป เราก็ยังต้องเตรียมพร้อมเพื่อมัน - เราต้องพวกท่านเพื่อช่วยกันฝ่าฟันสถานการณ์นี้ไปด้วยกัน"</em><br />- John F. Kennedy, Inaugural Speech, มกรา 1961</p>
+                    <p>ในปี 1945, เหล่าพันธมิตรได้ปราบเหล่าอสูรร้ายนาซีได้, ด้วยพายุเปลวเพลิงที่ทำให้จักรวรรดิ์ญี่ปุ่นต้องยอมสิโรราป. ได้เหลือยักษ์ใหญ่อยู่สองตน. ทั่วโลกกำลังก้าวเข้าสู่ความขัดแย้งใหม่, แต่มันไม่เหมือนกับความขัดแย้งที่ผ่านมากว่าทศวรรษ สมรภูมิใหม่นี้ ไม่ได้วัดกันด้วยกำลังทหารหรือกองรถถัง แต่วัดกันด้วยการสอดแนม และแนวคิดทางการเมือง, ความก้าวหน้าทางวิทยาศาสตร์ ศิลปะ และการหักหลัง.</p>
+                    <p><em>Twilight Struggle</em> เป็นเกมที่เล่นกันสองคน จำลองเหตุการณ์ 45 แห่งการห้ำหั่นกันผ่านสงครามเย็นระหว่างสหภาพโซเวียตและสหรัฐอเมริกา. โลกทั้งใบเป็นเหมือนกับสนามประลองระหว่างสองยักษ์ใหญ่เพื่ออุดมการณ์และแนวทางของตัวเอง. ตัวเกมจะเริ่มตั้งแต่การสิ้นสุดของสงครามโลกครั้งที่ 2 และจบที่ปี 1989 โดยฝ่ายที่ยังคงยืนหยัดอยู่ได้นั้นเป็นสหรัฐอเมริกา.</p>
+                    <p><em>Twilight Struggle</em> นั้นจะเดินเกมผ่านการ์ดแต่ละใบอย่างเช่นเกม We the People และ Hannibal: Rome vs. Carthage. เป็นเกมที่เล่นได้เร็ว, ไม่ซับซ้อน. Event card แต่ละใบจะแทนเหตุการณ์ที่เกิดขึ้น, จากความขัดแย้งใน Israeli ปี 1948 และ 1967, ถึงเวียดนาม และ การเคลื่อนไหวทางสันติภาพใน U.S., ถึงวิกฤตการมิซไซล์ในคิวบาที่ทำให้โลกต้องตึงเครียดจากสงครามนิวเคลียร์.</p>
+                    <p>คู่มือนี้จะแบ่งแต่ละส่วนโดยตัวเลข โดยที่มีหัวข้อย่อยๆ ของตัวเองอีกที่อย่างเช่น 2.1 2.2.</p>
+                    <p>ศัพท์ที่เป็นคำสำคัญอย่าง '<span class="capitalize">Influence</span>' หรือ '<span class="capitalize">Battleground</span>', ในคู่มือนั้นจะใช้ตัวสีแดง ซึ่งจะเป็นการเน้นย้ำว่านี่คือส่วนที่สำคัญ.</p>
 
-            <h2>2.0 COMPONENTS</h2>
+                    <h2>2.0 COMPONENTS</h2>
 
-            <h3>2.1 THE GAME MAP</h3>
+                    <h3>2.1 THE GAME MAP</h3>
 
-            <p>"<em>จาก Stetlin ใน Baltic ถึง Trieste ใน Adiriatic, ม่านเหล็กได้ข้ามผ่านทวีปนี้เข้ามาแล้ว.</em>"<br />- Winston Churchill</p>
+                    <p>"<em>จาก Stetlin ใน Baltic ถึง Trieste ใน Adiriatic, ม่านเหล็กได้ข้ามผ่านทวีปนี้เข้ามาแล้ว.</em>"<br />- Winston Churchill</p>
 
-            <p><strong>2.1.1</strong> แผนที่จะถูกแบ่งเป็น 6 ทวีป: Europe, Asia, Central America, South America, Africa และ Middle East. ทวีปจะแบ่งโดยภูมิศาสตร์ ติดต่อกับประเทศต่างๆ, อย่างเช่น Europe จะแบ่งเป็นส่งส่วนใหญ่ๆ คือ Eastern Europe และ Western Europe.​ ประเทศที่อยู่ในประวัติศาสตร์สองประเทศอย่าง Austria กับ Finland จะถูกจัดอยู่ในทั้ง Eastern และ Western Europe ทั้งคู่. ทวีป Asia ก็จะมีพื้นที่ย่อยๆ อย่าง Southeast Asia นั้นจะถูกแบ่งด้วยเชดสีที่ต่างกันในทีวีป แต่ถ้าเป็นในระดับทวีปนั้นจะแบ่งด้วยสีเดียวกัน.</p>
-            <p><em><strong>บันทึกคนออกแบบเกม: </strong>บางครั้งเราก็จะแบ่งประเทศต่างๆ ตามเหตุผลทางการเมืองอย่างเช่น Libya กับ Egypt จะอยู่ใน Middle East ในขณะที่ Canada กับ Turkey จะอยู่ในทวีป Europe.</em></p>
+                    <p><strong>2.1.1</strong> แผนที่จะถูกแบ่งเป็น 6 ทวีป: Europe, Asia, Central America, South America, Africa และ Middle East. ทวีปจะแบ่งโดยภูมิศาสตร์ ติดต่อกับประเทศต่างๆ, อย่างเช่น Europe จะแบ่งเป็นส่งส่วนใหญ่ๆ คือ Eastern Europe และ Western Europe.​ ประเทศที่อยู่ในประวัติศาสตร์สองประเทศอย่าง Austria กับ Finland จะถูกจัดอยู่ในทั้ง Eastern และ Western Europe ทั้งคู่. ทวีป Asia ก็จะมีพื้นที่ย่อยๆ อย่าง Southeast Asia นั้นจะถูกแบ่งด้วยเชดสีที่ต่างกันในทีวีป แต่ถ้าเป็นในระดับทวีปนั้นจะแบ่งด้วยสีเดียวกัน.</p>
+                    <p><em><strong>บันทึกคนออกแบบเกม: </strong>บางครั้งเราก็จะแบ่งประเทศต่างๆ ตามเหตุผลทางการเมืองอย่างเช่น Libya กับ Egypt จะอยู่ใน Middle East ในขณะที่ Canada กับ Turkey จะอยู่ในทวีป Europe.</em></p>
 
-            <p><strong>2.1.2</strong> ในแต่ละเหตุการณ์, กฏ, การกระทำ, หรือการ์ด ที่กล่าวถึง 'Europe' หรือ 'Asia' จะรวมไปถึงพื้นที่ย่อยๆ ในนั้นด้วย.</p>
+                    <p><strong>2.1.2</strong> ในแต่ละเหตุการณ์, กฏ, การกระทำ, หรือการ์ด ที่กล่าวถึง 'Europe' หรือ 'Asia' จะรวมไปถึงพื้นที่ย่อยๆ ในนั้นด้วย.</p>
 
-            <p><strong>2.1.3</strong> ในแต่ละพื้นที่ของแผนที่จะแทนด้วยประเทศ. แต่ละประเทศจะมีค่าความมั่นคงแสดงอยู่ ซึ่งไม่เกี่ยวข้องกับอำนาจของประเทศนั้นๆ. </p>
-            <div><img src="/images/stability-number.png" style="max-width: 400px;"/></div>
+                    <p><strong>2.1.3</strong> ในแต่ละพื้นที่ของแผนที่จะแทนด้วยประเทศ. แต่ละประเทศจะมีค่าความมั่นคงแสดงอยู่ ซึ่งไม่เกี่ยวข้องกับอำนาจของประเทศนั้นๆ. </p>
+                    <div><img src="/images/stability-number.png" style="max-width: 400px;"/></div>
 
-            <p><strong>2.1.4 พื้นที่สงคราม.</strong> ประเทศส่วนใหญ่จะมีชื่อเป็นสีขาว, แต่ว่าประเทศที่เป็นพื้นที่สงคราม จะมีชื่อเป็นสีม่วง และจะมีกฏพิเศษที่เกี่ยวกับคะแนน และ ค่าความต้องการในการรัฐประหาร.</p>
+                    <p><strong>2.1.4 พื้นที่สงคราม.</strong> ประเทศส่วนใหญ่จะมีชื่อเป็นสีขาว, แต่ว่าประเทศที่เป็นพื้นที่สงคราม จะมีชื่อเป็นสีม่วง และจะมีกฏพิเศษที่เกี่ยวกับคะแนน และ ค่าความต้องการในการรัฐประหาร.</p>
 
-            <p><strong>2.1.5</strong> ในแผนที่นั้นจะแบ่งเป็นสองส่วนใหญ่ๆ ที่จะเปรียบเสมือน สหรัฐอเมริกา และ สหภาพโซเวียต. ที่จะไม่มีการเล่น Influence Markers แต่ว่าจะมีจะมีความเกี่ยวข้องกับ "ประเทศใกล้เคียงที่ครอบครองอยู่" เอาไว้ใช้สำหรับ Events และ realignments.</p>
+                    <p><strong>2.1.5</strong> ในแผนที่นั้นจะแบ่งเป็นสองส่วนใหญ่ๆ ที่จะเปรียบเสมือน สหรัฐอเมริกา และ สหภาพโซเวียต. ที่จะไม่มีการเล่น Influence Markers แต่ว่าจะมีจะมีความเกี่ยวข้องกับ "ประเทศใกล้เคียงที่ครอบครองอยู่" เอาไว้ใช้สำหรับ Events และ realignments.</p>
 
-            <p>
-                <strong>2.1.6</strong> ประเทศต่างๆ ที่ต่อกับเส้นสีดำ, แดง และน้ำตาล จะหมายถึงว่าอยู่ในทวีปเดียวกัน. เส้นประสีแดง จะหมายถึงว่าประเทศนี้ติดต่อกับอีกทวีป. เส้นสีดำจะบอกว่าประเทศนี้ติดต่อระหว่างประเทศและมหาอำนาจ. ประเทศที่บอกว่าติดอยู่กับประเทศอื่นๆ ที่ติดกัน.
-            </p>
-            <p>
-                <em>หมายเหตุคนสร้างเกม:</em> การติดต่อกันของพรมแดนนั้นจะไม่ได้หมายถึงพื้นที่ทางภูมิศาสตร์. บางประเทศจะใช้พรมแดนร่วมกัน. นี่ไม่ใช้ข้อผิดพลาดของแผนที่แต่เป็นกลไกของเกม และเห็นการณ์ทางการเมืองไปด้วย
-            </p>
-            <div>
-            <img src="/images/control-influence.png" style="max-width: 400px;"/>
-            </div>
-            <p>
-                <strong>2.1.7 Controlling Countries:</strong> แต่ละประเทศในแผนที่จะบอกว่าถูกควบคุมโดยผู้เล่นแต่ละฝั่ง, หรือก็ไม่ได้ถูกควบคุมโดยทั้งสองฝั่ง. ประเทศเหล่านั้นจะบอกว่าถูกควบคุมโดยใครจาก:
-                <ul>
-                    <li>ผู้เล่นที่มีค่าอิทธิพลในประเทศนั้น มากกว่าหรือเท่ากับค่าความมั่นคงของในประเทศนั้นๆ.</li>
-                    <li>ค่าอิทธิพลของผู้เล่นในประเทศนั้นๆ มากกว่าค่าอิทธิพลของฝั่งตรงข้าม ซึ่งต้องไม่น้อยกว่าค่าความมั่นคงของประเทศนั้นๆ ด้วย.</li>
-                </ul>
-                <em>ตัวอย่าง:</em> ในการที่จะควบคุม Israel (ค่าความมั่นคงเป็น 4), ผู้เล่นต้องมีค่าอิทธิพลใน Israel อย่างน้อยเท่ากับ 4 แต้้ม, และต้องมีค่าอิทธิพลมากกว่าฝั่งตรงข้ามอีกอย่างน้อย 4 แต้ม (ใน Israel). <span class="mark">เพิ่มไปอีกเท่าตัวใช่ปะวะ?</span>
-            </p>
+                    <p>
+                        <strong>2.1.6</strong> ประเทศต่างๆ ที่ต่อกับเส้นสีดำ, แดง และน้ำตาล จะหมายถึงว่าอยู่ในทวีปเดียวกัน. เส้นประสีแดง จะหมายถึงว่าประเทศนี้ติดต่อกับอีกทวีป. เส้นสีดำจะบอกว่าประเทศนี้ติดต่อระหว่างประเทศและมหาอำนาจ. ประเทศที่บอกว่าติดอยู่กับประเทศอื่นๆ ที่ติดกัน.
+                    </p>
+                    <p>
+                        <em>หมายเหตุคนสร้างเกม:</em> การติดต่อกันของพรมแดนนั้นจะไม่ได้หมายถึงพื้นที่ทางภูมิศาสตร์. บางประเทศจะใช้พรมแดนร่วมกัน. นี่ไม่ใช้ข้อผิดพลาดของแผนที่แต่เป็นกลไกของเกม และเห็นการณ์ทางการเมืองไปด้วย
+                    </p>
+                    <div>
+                    <img src="/images/control-influence.png" style="max-width: 400px;"/>
+                    </div>
+                    <p>
+                        <strong>2.1.7 Controlling Countries:</strong> แต่ละประเทศในแผนที่จะบอกว่าถูกควบคุมโดยผู้เล่นแต่ละฝั่ง, หรือก็ไม่ได้ถูกควบคุมโดยทั้งสองฝั่ง. ประเทศเหล่านั้นจะบอกว่าถูกควบคุมโดยใครจาก:
+                        <ul>
+                            <li>ผู้เล่นที่มีค่าอิทธิพลในประเทศนั้น มากกว่าหรือเท่ากับค่าความมั่นคงของในประเทศนั้นๆ.</li>
+                            <li>ค่าอิทธิพลของผู้เล่นในประเทศนั้นๆ มากกว่าค่าอิทธิพลของฝั่งตรงข้าม ซึ่งต้องไม่น้อยกว่าค่าความมั่นคงของประเทศนั้นๆ ด้วย.</li>
+                        </ul>
+                        <em>ตัวอย่าง:</em> ในการที่จะควบคุม Israel (ค่าความมั่นคงเป็น 4), ผู้เล่นต้องมีค่าอิทธิพลใน Israel อย่างน้อยเท่ากับ 4 แต้้ม, และต้องมีค่าอิทธิพลมากกว่าฝั่งตรงข้ามอีกอย่างน้อย 4 แต้ม (ใน Israel). <span class="mark">เพิ่มไปอีกเท่าตัวใช่ปะวะ?</span>
+                    </p>
 
-            <h3>2.2 CARDS</h3>
+                    <h3>2.2 CARDS</h3>
 
-            <p><strong>2.2.1</strong> เราจะมีการ์ดทั้งหมด 110 ใบในเกม. ซึ่งการ์ดแต่ละใบจะประกอบไปด้วยค่า Operations Point, Event Title และ Event Description. และการ์ดบางใบจะมีเครื่องหมาย SCORING แสดงอยู่ด้วย, การ์ดเหล่านี้จะถูกจั่วมาเล่นในเกมนี้ในแต่ละตา.</p>
+                    <p><strong>2.2.1</strong> เราจะมีการ์ดทั้งหมด 110 ใบในเกม. ซึ่งการ์ดแต่ละใบจะประกอบไปด้วยค่า Operations Point, Event Title และ Event Description. และการ์ดบางใบจะมีเครื่องหมาย SCORING แสดงอยู่ด้วย, การ์ดเหล่านี้จะถูกจั่วมาเล่นในเกมนี้ในแต่ละตา.</p>
 
-            <p>
-                <strong>2.2.2</strong> แต่ละการ์ดจะมีเครื่องหมายที่บอกว่ามีความสามารถพิเศษอะไร. ซึ่งจะเกี่ยวเนื้องกับเหตุการณ์ต่างๆ, ตามนี้.
-                <ul>
-                    <li>การ์ดที่มีดาวสีแดง จะเกี่ยวข้องกับฝั่ง USSR เท่านั้น.</li>
-                    <li>การ์ดที่มีดาวสีขาว จะเกี่ยวข้องกับฝั่ง US เท่านั้น.</li>
-                    <li>การ์ดที่มีดาวสีแดงและสีขาวรวมกัน จะไม่เกี่ยวข้องกับทั้งฝั่ง USSR และ US.</li>
-                </ul>
-                (ดูเรื่องราวของการ์ดแต่ละใบที่ 5.2 เพื่อที่จะรู้ว่าคู่ต่อสู้ของเรามีความสามารถพิเศษอะไรบ้าง.)
-            </p>
+                    <p>
+                        <strong>2.2.2</strong> แต่ละการ์ดจะมีเครื่องหมายที่บอกว่ามีความสามารถพิเศษอะไร. ซึ่งจะเกี่ยวเนื้องกับเหตุการณ์ต่างๆ, ตามนี้.
+                        <ul>
+                            <li>การ์ดที่มีดาวสีแดง จะเกี่ยวข้องกับฝั่ง USSR เท่านั้น.</li>
+                            <li>การ์ดที่มีดาวสีขาว จะเกี่ยวข้องกับฝั่ง US เท่านั้น.</li>
+                            <li>การ์ดที่มีดาวสีแดงและสีขาวรวมกัน จะไม่เกี่ยวข้องกับทั้งฝั่ง USSR และ US.</li>
+                        </ul>
+                        (ดูเรื่องราวของการ์ดแต่ละใบที่ 5.2 เพื่อที่จะรู้ว่าคู่ต่อสู้ของเรามีความสามารถพิเศษอะไรบ้าง.)
+                    </p>
 
-            <p>
-                <strong>2.2.3</strong> การ์ดแต่ละใบนั้นสามารถจะใช้เป็น Event กรือ Operation card ก็ได้.
-            </p>
-            <div>
-                <img src="/images/sample-card.png" style="max-width: 400px;"/>
-            </div>
+                    <p>
+                        <strong>2.2.3</strong> การ์ดแต่ละใบนั้นสามารถจะใช้เป็น Event กรือ Operation card ก็ได้.
+                    </p>
+                    <div>
+                        <img src="/images/sample-card.png" style="max-width: 400px;"/>
+                    </div>
 
-            <p>
-                <strong>2.2.4</strong> การ์ดหลายๆ ใบนั้นจะมีดอกจันทร์ต่อจากชื่อ Event. ซึ่งเมื่อใช้การนี้เป็น Event แล้ว, การ์ดที่จะถูกเอาออกไปจากเกมเลย.
-            </p>
+                    <p>
+                        <strong>2.2.4</strong> การ์ดหลายๆ ใบนั้นจะมีดอกจันทร์ต่อจากชื่อ Event. ซึ่งเมื่อใช้การนี้เป็น Event แล้ว, การ์ดที่จะถูกเอาออกไปจากเกมเลย.
+                    </p>
 
-            <p>
-                <strong>2.2.5</strong> การ์ดที่ชื่อ Event title มีการขีดเส้นใต้เอาไว้จะหงายเอาไว้ข้างตัวบอร์ดจนกว่าจะถูกยกเลิกไป (หรือวางเอาไว้จนจบเกม).
-                <div>
-                    <em>หมายเหตุ: ผู้เล่นสามารถดู ...</em>
+                    <p>
+                        <strong>2.2.5</strong> การ์ดที่ชื่อ Event title มีการขีดเส้นใต้เอาไว้จะหงายเอาไว้ข้างตัวบอร์ดจนกว่าจะถูกยกเลิกไป (หรือวางเอาไว้จนจบเกม).
+                        <div>
+                            <em>หมายเหตุ: ผู้เล่นสามารถดู ...</em>
+                        </div>
+                    </p>
+
+                    <p>
+                        <strong>2.2.6</strong> การ์ดที่อยู่ในกองที่ใช้แล้ว (ไม่ได้ถูกเอาออกจากเกมไป) จะถูกวางหงายเอาไว้ในกอง ใกล้ๆ กับกองที่ยังไม่ได้จั่ว.
+                    </p>
+
+                    <h3>2.3 MARKERS</h3>
+
+                    <p>ตัวเกมจะมี marker ต่างๆ เหล่านี้:</p>
+
+                    <div>
+                        <img src="/images/markers.png" style="max-width: 400px;"/>
+                    </div>
+
+                    <h2>3.0 GAME SETUP</h2>
+
+                    <p><strong>3.1</strong> สับ Eaely War การ์ด และ แจกให้ผู้เล่นคนละ 8 ใบ. โดยที่วาง "The China Card" หงายเอาไว้ที่ด้านหน้าผู้เล่นฝั่ง USSR. ผู้เล่นสามารถเรียงลำดับการ์ดเพื่อที่จะใช้เล่นในช่วงเริ่มต้นของ Influence markers ได้.</p>
+
+                    <p><strong>3.2</strong> ผู้เล่นฝั่ง USSR จะตั้งเกมก่อน, วาง Influence markers 15 อัน ตามตำแหน่งต่างๆ ดังนี้: 1 อันใน Syria, 1 อันใน Iraq, 3 อันใน North Korea, 3 อันใน East Germany, 1 อันใน Finland และอีก 6 อันใน Eastern Europe ประเทศไหนก็ได้.</p>
+
+                    <p><strong>3.3</strong> ผู้เล่นฝั่ง US จะตั้งเกมเป็นฝั่งต่อมา, วาง Influence markers 25 อัน ตามตำแหน่งต่างๆ ดังนี้: 2 อันใน Canada, 1 อันใน Iran, 1 อันใน Israel, 1 อันใน Japan, 4 อันใน Australia, 1 อันใน Philippines, 1 อันใน South Korea, 1 อันใน Panama, 1 อันใน South Africa, 5 อันใน United Kingdom, และอีก 7 อันตรงไหนก็ได้ใน Western Europe.</p>
+
+                    <p><strong>3.4</strong> วาง Space Race markers ของ US และ USSR เอาไว้ข้างๆ Space Race track. ผู้เล่นแต่ละฝั่งจะวาง Military OP marker ตรงตำแหน่งที่ศูนย์ของ Military Operations Track. วาง Turn marker ไว้ที่ตำแหน่งแรกใน Turn Record Track. วาง Defcon marker ในตำแหน่งที่ 5 ใน DEFCON Track. สุดท้าย, วาง VP marker ที่ Victory Points Track ที่ตำแหน่งศูนย์.</p>
+
+                    <h2>4.0 GAME SEQUENCE</h2>
+
+                    <p><strong>4.1</strong> เกมนี้จะมีอยู่ 10 เทิร์น. แต่ละเทิร์นจะแทนสามถึงห้าปีในเวลาจริง, ซึ่งผู้เล่นแต่ละคนจะได้เล่นการ์ดปกติ หกหรือเจ็ดใบ. ในตอนเริ่มเกมผู้เล่นแต่ละคนจะได้รับการ์ดคนละแปดใบจากกอง Early War. ในตอนเริ่มเทิร์นที่สี่ การ์ดจากกอง Middle War จะถูกสับแล้วเอามาไว้ในกองสำหรับเอาไว้จั่ว และผู้เล่นจะละคนจะถือการ์ดในมือเพิ่มเป็นเก้าใบ. และในตอนที่เริ่มเทิร์นเก้า การ์ดจากกอง Late War จะถูกสับแล้วใส่เอาไว้ในกองสำหรับจั่ว.</p>
+
+                    <p><strong>4.2</strong> Phasing Player จะหมายถึงผู้เล่นที่กำลังเล่นอยู่ใน Action Round.</p>
+
+                    <p><strong>4.3</strong> ถ้าการ์ดในกองจั่วหมด, ให้สับการ์ดจากกองที่ทิ้งไปแล้วมาทำเป็นกองจั่วใหม่. ซึ่งการ์ดที่มีเครื่องหมายดอกจันทร์ (*) นั้นจะถูกเอาออกจากเกมหลังจากเล่นไปแล้ว  และจะไม่เอามาเล่นใหม่อีก.</p>
+
+                    <p><strong>4.3.1</strong> แจกการ์ดที่เหลือในกองจั่ว ก่อนที่จะสับเพื่อสร้างกองจั่วใหม่ ยกเว้นเทิร์นที่ 4 และ 8.</p>
+
+                    <p><strong>4.4</strong> ตอนที่เปลี่ยนจาก Early War เป็น Mid War, หรือจาก Mid War ไป Late War, ไม่ต้องสับการ์ดที่ใช้ไปแล้วเข้ามาในกองจั่ว ให้เอาการ์ดของแต่ละช่วงมาใส่เพิ่มเท่านั้น การ์ดที่ใช้แล้วจะเอามาสับแล้วเพิ่มในกองในการสับครั้งต่อไป.</p>
+
+                    <p><strong>4.5</strong> ในแต่ละเทิร์นจะเล่นตามลำดับดังนี้.</p>
+
+                    <p><strong>A. Improve DEFCON Status:</strong> ถ้า DEFCON น้อยกว่า 5 ให้เพิ่ม DEFCON เข้าไป 1 อัน (จนกว่าจะถุง peace).</p>
+
+                    <p><strong>B. Deal Cards:</strong> ผู้เล่นแต่ละคนจะได้รับการ์ด 8 ใบในเทิร์นที่ 1-3. ส่วนเทิร์นที่ 4-10 จะได้รับการ์ด 9 ใบ โดยที่ China Card จะไม่นับรวมในจำนวนนี้.</p>
+
+                    <div>
+                        <p><strong>C. Headline Phase:</strong> ผู้เล่นแต่ละคนจะเลือกการ์จากในมือโดยที่ไม่ให้อีกฝั่งเห็น หลังจากเลือกเสร็จกันทั้งคู่แล้วก็เปิดการ์ดและทำตามความสามารถของการ์ด. การ์ดนี้จะเรียกว่า 'Headline cards' และจะเริ่ม event ของการ์ดแต่ละใบ(การ์ดที่มีเครื่องหมายดอกจันทร์​จะถูกเอาออกจากเกม). ในการที่จะทำเหตุการณ์ของการ์ดใบไหนก่อนให้ดูที่ค่า Operation ที่บอกไว้ในการ์ด; ถ้าหากว่าเท่ากันจะให้ฝั่ง US ทำก่อน.</p>
+
+                        <ul>
+                            <li>การ์ดที่ทำแต้มได้สามารถใช้เล่นใน Headline Phase ได้. แต่ว่าแต้มในการ์ดนั้นจะถูกคิดเป็น 0 แล้วค่อยทำเอฟเฟคในการ์ด. ถ้าหากว่าทั้งสองฝ่ายเลือกเล่นการ์ดที่มีแต้มทั้งคู่ ผู้เล่นฝ่าย US จะโดนก่อน.</li>
+                            <li>ผู้เล่นต้องมี Headline event โดยไม่สนว่า event นั้นจะช่วยฝ่ายตัวเองหรือว่าช่วยอีกฝ่าย.</br>
+                                <em>NOTE: ถ้าหากว่าต้องเล่นการ์ดของฝั่งตรงข้ามในช่วง Headline ผู้เล่นอีกฝ่ายจะได้รับอานิสงส์ของ event นั้นแทน. แต่อย่างไรก็ตามผู้เล่นที่เป็นเจ้าของ headline card จะยังถือว่าเป็น phasing player อยู่ สำหรับสถานะของ DEFCON (ดูที่ 8.1.3.)</em>
+                            </li>
+                            <li>'China Card' จะเล่นเป็น Headline ไม่ได้.</li>
+                            <li>เว้นแต่ว่า headline event มีความเกี่ยวข้องกับ operation point, ผู้เล่นทั้งสองฝ่ายจะไม่ได้ operation pointer จากการ์ดที่เล่นในช่วง headline phase.</li>
+                        </ul>
+                    </div>
+
+                    <p><strong>D. Action Rounds:</strong> ในเทิร์นที่ 1-3 จะมี Action Round อยู่ 6 เทิร์น และจะเป็น 7 Action Round ในเทิร์นที่ 4-10. ผู้เล่นจะได้เลือกเล่นการ์ด 1 ใบต่อ 1 Action Round 6 ใบในเทิร์นที่ 1-3, 7 ใบในเทิร์นที่ 4-10. ผู้เล่นฝ่าย USSR จะได้เล่น Action Round ก่อนเสมอ, ตามด้วยฝ่าย US. ในทุก action การ์ดแต่ละใบของผู้เล่นจะถูกเปิดออกมาก่อนที่อีกฝ่ายจะเริ่มทำ action <span class="remindme">(จริงๆ มันก็เปิดพร้อมกันปะวะ?)</span>. ผู้เล่นที่กำลังทำ Action อยู่จะเรียกว่า 'Phasing Player'.</p>
+
+                    <ul>
+                        <li>ปกติแล้ว ผู้เล่นจะมีการ์ดให้เล่นเสมอ. การ์ดพวกนี้จะเรียกว่า "การ์ดที่ถืออยู่", และจะเล่นต่อเนื่องกันไป. Scoring card จะไม่สามารถถือเอาไว้ได้. <span class="remindme">(ยังงงอยู่)</span ></li>
+                        <li>ถ้าหากว่าผุ้เล่นมีการ์ดไม่พอที่จะเล่นใน Action Round จะต้องนั่งดูผู้เล่นอีกฝ่ายเล่น Action Round จนกว่าจะเสร็จ <span class="remindme">(ยังงงอยู่ว่าเมื่อกี้บอกว่าจะมีการ์ดให้เล่นตลอด แต่ว่าข้อนี้บอกให้นั่งดูได้ จะเกิดกรณีนี้เมื่อไหร่?)</span >.</li>
+                    </ul>
+
+                    <p><strong>E. Check Military Operations Phase:</strong> ผู้เล่นแต่ละคนจะถูกกำหนดเอาไว้ว่า ถ้าหากถูกลงโทษจากการที่ Victory Points ในการเล่นของเทิร์นั้น เท่ากับค่า Military Operations ในเทิร์นนั้น <span class="remindme">(ยังงงตรงนี้่อยู่)</span> (ดูที่ 8.2). ผู้เล่นแต่ละคนจะต้องปรับ Military Operations marker ไปไว้ที่ 0.</p>
+
+                    <p><strong>F. Reveal Held Card:</strong> ใน Tournament หรือ การแข่งขัน (competitive play), ผู้เล่นทั้งสองฝ่ายจะโชว์การ์ที่ถืออยู่ให้อีกฝ่ายดู เพื่อบอกว่า scoring การ์ดที่ต้องเล่นในรอบนั้นถูกเล่นไปแล้ว เพื่อลดความลับในเกมลง, แต่ว่ากฎข้อนี้จะไม่จะเป็นในสภาพแวดล้อมของการเล่นแบบไม่ได้แข่งขันกัน(non-competitive play).</p>
+
+                    <p><strong>G. Flip China Card:</strong> ถ้าหากว่าถึงเวลาของ 'The China Card' แล้วให้เปิดในตอนนี้.</p>
+
+                    <p><strong>H. Advance Turn Marker:</strong> เลื่อน Turn Marker ไปที่เทิร์นต่อไป. ถ้าหากว่าเป็นการจบเทิร์น 3, สับ Mid War การ์ดใส่เพิ่มเข้าไปในกองจั่ว. ถ้าหากว่าเป็นตาสุดท้ายในเทิร์ด 7, สับ Late War การ์ดใส่เพิ่มเข้าไปในกองจั่ว.</p>
+
+                    <p><strong>I. Final Scoring:</strong> ในตอนจบของเทิร์น 10, ให้เริ่มนับคะแนนตามกฎ(ของการนับคะแนน).</p>
+
+                    <h2>5.0 CARD PLAY</h2>
+
+                    <p><strong>5.1</strong> การ์ดแต่ละใบนั้นจะสามารถเล่นได้สองทาง: เล่นเป็น Events การ์ด หรือ Operation การ์ด. ปกติแล้ว ผู้เล่นจะเหลือการ์ดอยู่ใบเดียวในมือในตอนจบเทิร์น. การ์ดใบอื่นๆ จะถูกใช้เป็น events หรือ operations การ์ดไป. ผู้เล่นจะไม่สามารถข้ามการเล่นการ์ด หรือทิ้งการ์ดในแต่ละตาได้(บังคับเล่นทุกตา).</p>
+
+                    <p><strong>5.2 Events Associated With Your Opponent: </strong>ถ้าผู้เล่นเลือกเล่นการ์ดเป็น Operation card, และ Event ในการ์ดนั้นบอกเอาไว้ว่าเกี่ยวโยงกับอีกฝ่ายอย่างเดียว, Event นั้นจะยังมีผลอยู่. <strong>NOTE: </strong>เวลาที่เล่น operation card เป็น operation และมันดันไปดันไปทำให้ event ของอีกฝ่ายเกิดขึ้น, ผู้เล่นอีกฝ่ายจะได้ทำเหตุการณ์ที่บอกเอาไว้ในการ์ดเอง.</p>
+
+                    <ul>
+                        <li>Phasing player จะได้เลือกว่าจะวาง event ก่อนหรือหลัง Operation จะถูกจัดการ.</li>
+                        <li>ถ้าการ์ดที่เล่นเป็น event ของอีกฝ่าย, แต่ event นั้นจะยังไม่ทำงานถ้าหากว่าเงื่อนไขก่อนหน้ายังไม่ครบ. event นั้นก็จะยังไม่ทำงาน, หรือเงื่อนไขที่อยู่ในการยังไม่ครบ. ซึ่งถ้าการ์ดเหล่านี้มีเครื่องหมาย * ที่จะถูกเอาออกจากเกมหลังจากทำงานเสร็จจะถูกเอาไปไว้ที่ discard pile(ยังไม่เอาออกจากเกม).</li>
+                        <li>ถ้าการ์ดที่เล่นเป็น event ของฝั่งตรงข้าม, แต่ว่า event นั้นถูกยกเลิกด้วย event card ที่มาแทนที่, event ที่ว่านี้ก็จะไม่เกิดขึ้น, หลังจากนั้นการ์ดนี้ก็จะถูกเล่นเป็น Operation point อย่างเดียว.</li>
+                        <li>ถ้าการ์ดที่เล่นเป็น event ของฝั่งตรงข้าม, แต่ว่า event นั้นไม่มีผลอะไร, event นั้นจะยังต้องถูกเลือกที่จะเล่นต่อไป, และจะถูกเอาออกจากเกมเหมือนกันถ้ามีเครื่องหมาย *</li>
+                    </ul>
+
+                    <div>
+                        <img src="/images/event-opponent-card.png" style="width: 380px;" />
+                    </div>
+
+                    <p><strong>EXAMPLE 1: </strong>The USSR player plays the ‘NATO’ card before the
+                    ‘Marshall Plan’ or ‘Warsaw Pact’ cards have been played. The
+                    USSR player would get the benefit of the 4 Operations points,
+                    but the US would not get the ‘NATO’ event. However, despite
+                    being asterisked, the ‘NATO’ card would not be removed from
+                    play. It would be placed in the discard pile to be reshuffled and
+                    possibly played later.</p>
+                    <p><strong>EXAMPLE 2: </strong>The US player plays ‘Arab-Israeli War’ for 2 Operations.
+                    However, during his previous Action Round he played
+                    ‘Camp David Accords’ which prohibits play of ‘Arab-Israeli War’
+                    as an Event. The US player would still conduct 2 Operations,
+                    but the USSR player would not get the benefit of the Event, and
+                    the card would not be eliminated from the game.
+                    EXAMPLE 3: The USSR Player plays ‘Alliance for Progress;’
+                    however, the US Player does not control a Battleground country
+                    in either South or Central America. Nevertheless, the Event is
+                    considered played, and the card would be removed from the game
+                    after the USSR player’s round.
+                    EXAMPLE 4: The USSR player plays ‘Star Wars’, but the US
+                    player is ahead on the Space Race track. The result is no effect
+                    and the ‘Star Wars’ card is returned to the discard pile.</p>
+
+                    <p><strong>5.3</strong> When a card played as an Event requires the play or discard
+                    of another card of a specific value, a higher valued card will
+                    always satisfy the requirement.
+                    EXAMPLE: The ‘Quagmire’ card requires the US player to discard
+                    a 2 Operations card. If the US plays a 3 Operations card,
+                    the requirement is still met.</p>
+
+                    <p><strong>5.4</strong> When an event forces a player to discard a card, the Event
+                    on the discarded card is not implemented. This rule also applies
+                    to Scoring cards.</p>
+
+                    <p><strong>5.5</strong> Except as noted in rule 10.1.5, card text that contradicts the
+                    written rules supersedes the written rules.</p>
+
+                    <h2>6.0 OPERATIONS</h2>
+                    <p>Operations can be used in the following ways: to place Influence
+                    markers, to make Realignment rolls, to attempt Coups, or to attempt
+                    advancement in the Space Race. When a card is played as
+                    an Operations card, the player must choose to use all of the Operations
+                    points on one of the following options: Marker Placement,
+                    Realignment rolls, Coup Attempts or a Space Race attempt.</p>
+
+                    <h2>7.0 EVENTS</h2>
+
+                    <h2>8.0 DEFCON STATUS AND MILITARY OPERATIONS</h2>
+
+                    <h2>9.0 CHINA</h2>
+
+                    <h2>10.0 SCORING AND VICTORY</h2>
+
+                    <h2>11.0 TOURNAMENT PLAY</h2>
+
+                    <h2>12.0 THE CHINESE CIVIL WAR VARIANT</h2>
+
                 </div>
-            </p>
-
-            <p>
-                <strong>2.2.6</strong> การ์ดที่อยู่ในกองที่ใช้แล้ว (ไม่ได้ถูกเอาออกจากเกมไป) จะถูกวางหงายเอาไว้ในกอง ใกล้ๆ กับกองที่ยังไม่ได้จั่ว.
-            </p>
-
-            <h3>2.3 MARKERS</h3>
-
-            <p>ตัวเกมจะมี marker ต่างๆ เหล่านี้:</p>
-
-            <div>
-                <img src="/images/markers.png" style="max-width: 400px;"/>
             </div>
-
-            <h2>3.0 GAME SETUP</h2>
-
-            <p><strong>3.1</strong> สับ Eaely War การ์ด และ แจกให้ผู้เล่นคนละ 8 ใบ. โดยที่วาง "The China Card" หงายเอาไว้ที่ด้านหน้าผู้เล่นฝั่ง USSR. ผู้เล่นสามารถเรียงลำดับการ์ดเพื่อที่จะใช้เล่นในช่วงเริ่มต้นของ Influence markers ได้.</p>
-
-            <p><strong>3.2</strong> ผู้เล่นฝั่ง USSR จะตั้งเกมก่อน, วาง Influence markers 15 อัน ตามตำแหน่งต่างๆ ดังนี้: 1 อันใน Syria, 1 อันใน Iraq, 3 อันใน North Korea, 3 อันใน East Germany, 1 อันใน Finland และอีก 6 อันใน Eastern Europe ประเทศไหนก็ได้.</p>
-
-            <p><strong>3.3</strong> ผู้เล่นฝั่ง US จะตั้งเกมเป็นฝั่งต่อมา, วาง Influence markers 25 อัน ตามตำแหน่งต่างๆ ดังนี้: 2 อันใน Canada, 1 อันใน Iran, 1 อันใน Israel, 1 อันใน Japan, 4 อันใน Australia, 1 อันใน Philippines, 1 อันใน South Korea, 1 อันใน Panama, 1 อันใน South Africa, 5 อันใน United Kingdom, และอีก 7 อันตรงไหนก็ได้ใน Western Europe.</p>
-
-            <p><strong>3.4</strong> วาง Space Race markers ของ US และ USSR เอาไว้ข้างๆ Space Race track. ผู้เล่นแต่ละฝั่งจะวาง Military OP marker ตรงตำแหน่งที่ศูนย์ของ Military Operations Track. วาง Turn marker ไว้ที่ตำแหน่งแรกใน Turn Record Track. วาง Defcon marker ในตำแหน่งที่ 5 ใน DEFCON Track. สุดท้าย, วาง VP marker ที่ Victory Points Track ที่ตำแหน่งศูนย์.</p>
-
-            <h2>4.0 GAME SEQUENCE</h2>
-
-            <p><strong>4.1</strong> เกมนี้จะมีอยู่ 10 เทิร์น. แต่ละเทิร์นจะแทนสามถึงห้าปีในเวลาจริง, ซึ่งผู้เล่นแต่ละคนจะได้เล่นการ์ดปกติ หกหรือเจ็ดใบ. ในตอนเริ่มเกมผู้เล่นแต่ละคนจะได้รับการ์ดคนละแปดใบจากกอง Early War. ในตอนเริ่มเทิร์นที่สี่ การ์ดจากกอง Middle War จะถูกสับแล้วเอามาไว้ในกองสำหรับเอาไว้จั่ว และผู้เล่นจะละคนจะถือการ์ดในมือเพิ่มเป็นเก้าใบ. และในตอนที่เริ่มเทิร์นเก้า การ์ดจากกอง Late War จะถูกสับแล้วใส่เอาไว้ในกองสำหรับจั่ว.</p>
-
-            <p><strong>4.2</strong> Phasing Player จะหมายถึงผู้เล่นที่กำลังเล่นอยู่ใน Action Round.</p>
-
-            <p><strong>4.3</strong> ถ้าการ์ดในกองจั่วหมด, ให้สับการ์ดจากกองที่ทิ้งไปแล้วมาทำเป็นกองจั่วใหม่. ซึ่งการ์ดที่มีเครื่องหมายดอกจันทร์ (*) นั้นจะถูกเอาออกจากเกมหลังจากเล่นไปแล้ว  และจะไม่เอามาเล่นใหม่อีก.</p>
-
-            <p><strong>4.3.1</strong> แจกการ์ดที่เหลือในกองจั่ว ก่อนที่จะสับเพื่อสร้างกองจั่วใหม่ ยกเว้นเทิร์นที่ 4 และ 8.</p>
-
-            <p><strong>4.4</strong> ตอนที่เปลี่ยนจาก Early War เป็น Mid War, หรือจาก Mid War ไป Late War, ไม่ต้องสับการ์ดที่ใช้ไปแล้วเข้ามาในกองจั่ว ให้เอาการ์ดของแต่ละช่วงมาใส่เพิ่มเท่านั้น การ์ดที่ใช้แล้วจะเอามาสับแล้วเพิ่มในกองในการสับครั้งต่อไป.</p>
-
-            <p><strong>4.5</strong> ในแต่ละเทิร์นจะเล่นตามลำดับดังนี้.</p>
-
-            <p><strong>A. Improve DEFCON Status:</strong> ถ้า DEFCON น้อยกว่า 5 ให้เพิ่ม DEFCON เข้าไป 1 อัน (จนกว่าจะถุง peace).</p>
-
-            <p><strong>B. Deal Cards:</strong> ผู้เล่นแต่ละคนจะได้รับการ์ด 8 ใบในเทิร์นที่ 1-3. ส่วนเทิร์นที่ 4-10 จะได้รับการ์ด 9 ใบ โดยที่ China Card จะไม่นับรวมในจำนวนนี้.</p>
-
-            <div>
-                <p><strong>C. Headline Phase:</strong> ผู้เล่นแต่ละคนจะเลือกการ์จากในมือโดยที่ไม่ให้อีกฝั่งเห็น หลังจากเลือกเสร็จกันทั้งคู่แล้วก็เปิดการ์ดและทำตามความสามารถของการ์ด. การ์ดนี้จะเรียกว่า 'Headline cards' และจะเริ่ม event ของการ์ดแต่ละใบ(การ์ดที่มีเครื่องหมายดอกจันทร์​จะถูกเอาออกจากเกม). ในการที่จะทำเหตุการณ์ของการ์ดใบไหนก่อนให้ดูที่ค่า Operation ที่บอกไว้ในการ์ด; ถ้าหากว่าเท่ากันจะให้ฝั่ง US ทำก่อน.</p>
-
-                <ul>
-                    <li>การ์ดที่ทำแต้มได้สามารถใช้เล่นใน Headline Phase ได้. แต่ว่าแต้มในการ์ดนั้นจะถูกคิดเป็น 0 แล้วค่อยทำเอฟเฟคในการ์ด. ถ้าหากว่าทั้งสองฝ่ายเลือกเล่นการ์ดที่มีแต้มทั้งคู่ ผู้เล่นฝ่าย US จะโดนก่อน.</li>
-                    <li>ผู้เล่นต้องมี Headline event โดยไม่สนว่า event นั้นจะช่วยฝ่ายตัวเองหรือว่าช่วยอีกฝ่าย.</br>
-                        <em>NOTE: ถ้าหากว่าต้องเล่นการ์ดของฝั่งตรงข้ามในช่วง Headline ผู้เล่นอีกฝ่ายจะได้รับอานิสงส์ของ event นั้นแทน. แต่อย่างไรก็ตามผู้เล่นที่เป็นเจ้าของ headline card จะยังถือว่าเป็น phasing player อยู่ สำหรับสถานะของ DEFCON (ดูที่ 8.1.3.)</em>
-                    </li>
-                    <li>'China Card' จะเล่นเป็น Headline ไม่ได้.</li>
-                    <li>เว้นแต่ว่า headline event มีความเกี่ยวข้องกับ operation point, ผู้เล่นทั้งสองฝ่ายจะไม่ได้ operation pointer จากการ์ดที่เล่นในช่วง headline phase.</li>
-                </ul>
-            </div>
-
-            <p><strong>D. Action Rounds:</strong> ในเทิร์นที่ 1-3 จะมี Action Round อยู่ 6 เทิร์น และจะเป็น 7 Action Round ในเทิร์นที่ 4-10. ผู้เล่นจะได้เลือกเล่นการ์ด 1 ใบต่อ 1 Action Round 6 ใบในเทิร์นที่ 1-3, 7 ใบในเทิร์นที่ 4-10. ผู้เล่นฝ่าย USSR จะได้เล่น Action Round ก่อนเสมอ, ตามด้วยฝ่าย US. ในทุก action การ์ดแต่ละใบของผู้เล่นจะถูกเปิดออกมาก่อนที่อีกฝ่ายจะเริ่มทำ action <span class="remindme">(จริงๆ มันก็เปิดพร้อมกันปะวะ?)</span>. ผู้เล่นที่กำลังทำ Action อยู่จะเรียกว่า 'Phasing Player'.</p>
-
-            <ul>
-                <li>ปกติแล้ว ผู้เล่นจะมีการ์ดให้เล่นเสมอ. การ์ดพวกนี้จะเรียกว่า "การ์ดที่ถืออยู่", และจะเล่นต่อเนื่องกันไป. Scoring card จะไม่สามารถถือเอาไว้ได้. <span class="remindme">(ยังงงอยู่)</span ></li>
-                <li>ถ้าหากว่าผุ้เล่นมีการ์ดไม่พอที่จะเล่นใน Action Round จะต้องนั่งดูผู้เล่นอีกฝ่ายเล่น Action Round จนกว่าจะเสร็จ <span class="remindme">(ยังงงอยู่ว่าเมื่อกี้บอกว่าจะมีการ์ดให้เล่นตลอด แต่ว่าข้อนี้บอกให้นั่งดูได้ จะเกิดกรณีนี้เมื่อไหร่?)</span >.</li>
-            </ul>
-E. Check Military Operations Phase: Each player determines
-if they are penalized Victory Points for failing to perform enough
-Military Operations during the turn (see 8.2). Each player then
-resets his Military Operations markers back to zero.
-            <p><strong>E. Check Military Operations Phase:</strong> .</p>
-F. Reveal Held Card: During Tournament or competitive play,
-both players should reveal any held cards to their opponents
-to ensure that all required scoring cards are played during the
-round. Since this detracts from some elements of secrecy in the
-game, it is not necessary to use this rule in a non-competitive
-environment.
-            <p><strong>F. Reveal Held Card:</strong> .</p>
-G. Flip China Card: If ‘The China Card’ was passed face-down
-during the turn, flip it face-up now.
-            <p><strong>G. Flip China Card:</strong> .</p>
-H. Advance Turn Marker: Move the Turn Marker to the next
-turn. If it is the end of turn 3, shuffle the Mid War cards into the
-draw deck. If it is the end of turn 7, shuffle the Late war cards
-into the draw deck.
-            <p><strong>H. Advance Turn Marker:</strong> .</p>
-I. Final Scoring: At the end of turn 10, perform Final Scoring
-as described in the Scoring rules.
-            <p><strong>I. Final Scoring:</strong> .</p>
-
-            <h2>5.0 CARD PLAY</h2>
-5.1 Cards may be played in one of two ways: as Events or Operations.
-Ordinarily, players will hold one card in their hand at
-the end of the turn. All other cards will be used for events or
-operations. Players may not forgo their turn by declining to play
-a card, or by discarding a card from their hand.
-            <p><strong>5.1</strong></p>
-5.2 Events Associated With Your Opponent: If a player plays
-a card as an Operation, and the card’s Event is associated only
-with his opponent, the Event still occurs (and the card, if it has
-an asterisk after the Event title, is removed).
-NOTE: When playing a card for operations and it triggers your
-opponent’s event, your opponent implements the event text as if
-they had played the card themselves.
-• The phasing player always decides whether the event is to take
-place before or after the Operations are conducted.
-• If a card play triggers an opponent’s Event, but that Event
-cannot occur because a prerequisite card has not been played,
-or a condition expressed in the Event has not been met, the
-Event does not occur. In this instance, cards with an asterisk
-Event (marked *) are returned to the discard pile, not removed
-from the game.
-• If a card play triggers an opponent’s Event, but play of that
-event has been prohibited by a superseding Event card, then
-the Event does not occur, and the card remains in play for
-Operations points only.
-• If a card play triggers an opponent’s Event, but the event results
-in no effect, the Event is still considered played, and would
-still be removed if it has an asterisk.
-[image]
-EXAMPLE 1: The USSR player plays the ‘NATO’ card before the
-‘Marshall Plan’ or ‘Warsaw Pact’ cards have been played. The
-USSR player would get the benefit of the 4 Operations points,
-but the US would not get the ‘NATO’ event. However, despite
-being asterisked, the ‘NATO’ card would not be removed from
-play. It would be placed in the discard pile to be reshuffled and
-possibly played later.
-EXAMPLE 2: The US player plays ‘Arab-Israeli War’ for 2 Operations.
-However, during his previous Action Round he played
-‘Camp David Accords’ which prohibits play of ‘Arab-Israeli War’
-as an Event. The US player would still conduct 2 Operations,
-but the USSR player would not get the benefit of the Event, and
-the card would not be eliminated from the game.
-EXAMPLE 3: The USSR Player plays ‘Alliance for Progress;’
-however, the US Player does not control a Battleground country
-in either South or Central America. Nevertheless, the Event is
-considered played, and the card would be removed from the game
-after the USSR player’s round.
-EXAMPLE 4: The USSR player plays ‘Star Wars’, but the US
-player is ahead on the Space Race track. The result is no effect
-and the ‘Star Wars’ card is returned to the discard pile.
-            <p><strong>5.2</strong></p>
-5.3 When a card played as an Event requires the play or discard
-of another card of a specific value, a higher valued card will
-always satisfy the requirement.
-EXAMPLE: The ‘Quagmire’ card requires the US player to discard
-a 2 Operations card. If the US plays a 3 Operations card,
-the requirement is still met.
-            <p><strong>5.3</strong></p>
-5.4 When an event forces a player to discard a card, the Event
-on the discarded card is not implemented. This rule also applies
-to Scoring cards.
-            <p><strong>5.4</strong></p>
-5.5 Except as noted in rule 10.1.5, card text that contradicts the
-written rules supersedes the written rules.
-            <p><strong>5.5</strong></p>
-
-Operations can be used in the following ways: to place Influence
-markers, to make Realignment rolls, to attempt Coups, or to attempt
-advancement in the Space Race. When a card is played as
-an Operations card, the player must choose to use all of the Operations
-points on one of the following options: Marker Placement,
-Realignment rolls, Coup Attempts or a Space Race attempt.
-            <h2>6.0 OPERATIONS</h2>
-
-            <h2>7.0 EVENTS</h2>
-
-            <h2>8.0 DEFCON STATUS AND MILITARY OPERATIONS</h2>
-
-            <h2>9.0 CHINA</h2>
-
-            <h2>10.0 SCORING AND VICTORY</h2>
-
-            <h2>11.0 TOURNAMENT PLAY</h2>
-
-            <h2>12.0 THE CHINESE CIVIL WAR VARIANT</h2>
         </div>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
     </body>
 </html>

@@ -1,0 +1,25 @@
+{
+  "name": "twilight-struggle",
+  "version": "1.0.0",
+  "description": "Translate twilight struggle boardgame rule to thai language. Use normal bootstrap for structure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nattapol/twilight-struggle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nattapol/twilight-struggle/issues"
+  },
+  "homepage": "https://github.com/nattapol/twilight-struggle#readme",
+  "devDependencies": {
+    "browser-sync": "^2.17.3",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-watch": "^4.3.10"
+  }
+}
