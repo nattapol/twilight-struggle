@@ -19,7 +19,11 @@
   "devDependencies": {
     "browser-sync": "^2.17.3",
     "gulp": "^3.9.1",
+    "gulp-ruby-sass": "^2.1.0",
     "gulp-sass": "^2.3.2",
     "gulp-watch": "^4.3.10"
+  },
+  "dependencies": {
+    "gulp-ruby-sass": "^2.1.0"
   }
 }
