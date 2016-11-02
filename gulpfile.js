@@ -14,12 +14,13 @@ gulp.task('browser-sync', function() {
 	browserSync({
 		server: {
 			baseDir: "./"
-		}
+		},
+		browser: "google chrome"
 	});
 });
 
 gulp.task('default', ['sass', 'browser-sync'], function() {
-	
+
 	gulp.watch(['**/*.html'], browserSync.reload);
 	gulp.watch(['css/styles.css'], browserSync.reload);
 
